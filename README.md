@@ -11,17 +11,21 @@
 ## 2. Despliegue
 
 1. Crear contenedores
-   > docker compose up -d
+```
+   docker compose up -d
+```
 3. Crear proyecto tipo
 4. Ejecutar comandos
+```
    docker exec -it laravel_app bash
    cd /var/www/html/medioambiente
    composer create-project --prefer-dist laravel/laravel .
    cd /var/www/html/medioambiente
    cd ..
    chmod -R 777 .
-5. Desde navegador comprobar http://localhost:8000
-6. Copiar archivos fuentes en sus carpetas
+```
+6. Desde navegador comprobar http://localhost:8000
+7. Copiar archivos fuentes en sus carpetas
 8. Desde navegador comprobar http://localhost:8000/hola
 
 
